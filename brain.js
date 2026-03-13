@@ -61,7 +61,39 @@
 // console.log(nums2.pop())
 // console.log(nums2)
 
-function fun(a,b){
-    return a+b
+// function fun(a,b){
+//     return a+b
+// }
+// console.log(fun(6,9))
+
+
+// const f = (a,b) => {return a+b}
+
+// console.log(f(5,99))
+
+// call back function 
+
+
+// // anonimous funtion 
+// setTimeout(() =>{
+//     console.log("setTimeout()");
+// },2000)
+
+// const f = (a,b)=> { 
+//     console.log("this is the ans after 1 sec " + a+b)
+//     return a +b };
+
+// setTimeout(f(2,5),100)
+
+
+// //objects .....
+
+let ob = {
+    name : "rohit ",
+    address :{
+        city:"dehradun",
+        state:"uk"
+    }
+
 }
-console.log(fun(6,9))
+console.log(ob)
